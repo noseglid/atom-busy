@@ -1,0 +1,29 @@
+{
+  "name": "atom-busy",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "A generic display and progress for things that take time",
+  "keywords": [
+    "progress",
+    "status-bar",
+    "pending"
+  ],
+  "repository": "https://github.com/noseglid/atom-busy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-atom-build": "^3.0.0"
+  }
+}
