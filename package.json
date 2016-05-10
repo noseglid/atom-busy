@@ -1,7 +1,7 @@
 {
   "name": "busy",
   "main": "./lib/index",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A generic display and progress for things that take time",
   "keywords": [
     "progress",
