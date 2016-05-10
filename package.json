@@ -1,5 +1,5 @@
 {
-  "name": "atom-busy",
+  "name": "busy",
   "main": "./lib/index",
   "version": "0.0.0",
   "description": "A generic display and progress for things that take time",
