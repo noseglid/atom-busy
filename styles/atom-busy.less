@@ -9,8 +9,13 @@
   padding-top: 1px;
 
   span.icon-gear {
-    color: @text-color-info;
     text-align: center;
+    color: @text-color-subtle;
+
+    &.is-busy {
+      animation: spin 1.5s linear infinite;
+      color: @text-color-info;
+    }
   }
 }
 
@@ -22,8 +27,4 @@
   100% {
     transform: rotate(360deg);
   }
-}
-
-.spin {
-  animation: spin 1.5s linear infinite;
 }
