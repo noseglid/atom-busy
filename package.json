@@ -31,5 +31,13 @@
     "babel-eslint": "^6.0.4",
     "eslint": "^2.9.0",
     "eslint-config-atom-build": "^3.0.0"
+  },
+  "configSchema": {
+    "taskBacklog": {
+      "type": "integer",
+      "default": 5,
+      "minimum": 1,
+      "description": "The number of task to keep in the history"
+    }
   }
 }

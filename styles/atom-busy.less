@@ -4,6 +4,8 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+@spinTime: 1.5s;
+
 .busy {
   display: inline-block;
   padding-top: 1px;
@@ -13,7 +15,7 @@
     color: @text-color-subtle;
 
     &.is-busy {
-      animation: spin 1.5s linear infinite;
+      animation: spin @spinTime linear infinite;
       color: @text-color-info;
     }
   }
@@ -27,4 +29,9 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.spin {
+  animation: spin @spinTime linear infinite;
+  text-align: center;
 }
