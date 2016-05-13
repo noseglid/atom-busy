@@ -2,7 +2,7 @@
 
 An indicator which let's you know some background tasks is currently being run.
 
-![busy gif](busy.gif)
+![busy gif](https://raw.githubusercontent.com/noseglid/atom-busy/master/busy.gif)
 
 ## Known integrations
 
