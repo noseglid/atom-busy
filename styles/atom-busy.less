@@ -14,7 +14,7 @@
     text-align: center;
     color: @text-color-subtle;
 
-    &.is-busy {
+    &.is-busy::before {
       animation: spin @spinTime linear infinite;
       color: @text-color-info;
     }
@@ -31,7 +31,7 @@
   }
 }
 
-.spin {
+.spin::before {
   animation: spin @spinTime linear infinite;
   text-align: center;
 }
